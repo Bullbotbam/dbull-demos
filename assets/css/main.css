@@ -760,7 +760,7 @@ input[type='radio'] + label:before {
 .image:before {
 	pointer-events: none;
 	background-image: url('../../images/overlay.png');
-	background-color: rgba(19, 21, 25, 0.5);
+	background-color: rgba(19, 21, 25, 0.1);
 	border-radius: 4px;
 	content: '';
 	display: block;
@@ -1274,7 +1274,7 @@ button {
 	-ms-transition: -ms-transform 0.325s ease-in-out,
 		-ms-filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-	background-image: url('../../images/bg.jpg');
+	background-image: url('../../images/code-rain-down.jpeg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1783,4 +1783,13 @@ body.is-article-visible #footer {
 
 body.is-preload #footer {
 	opacity: 0;
+}
+
+/* 
+These are additional rules found to be needed for this project
+
+*/
+
+.projectimage {
+	margin-bottom: 30px;
 }
